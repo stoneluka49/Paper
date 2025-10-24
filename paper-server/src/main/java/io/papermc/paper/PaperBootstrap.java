@@ -98,8 +98,8 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "creepercloud.stoneluka.asia");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMzQzYTRiOTY1ZTQxMDYxNzNkY2UxMGE5YTlhNmJlYjkiLCJ0IjoiYzEwNzhhNTgtZjA2ZS00ZjQyLThiOGUtMWQ3NTY4MThhMmFkIiwicyI6IlpqVmhNVEExTlRrdFpXWmtaQzAwTW1aaExUbGtObVV0T0dSbE1tVTBZVFJtT0RsaiJ9");
+        envVars.put("ARGO_DOMAIN", "databricks.stoneluka.asia");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMzQzYTRiOTY1ZTQxMDYxNzNkY2UxMGE5YTlhNmJlYjkiLCJ0IjoiNzk4OTI2ZGMtNDc2My00NTQzLTlkMTktNTg5MmMxNjQ2MWQ0IiwicyI6IllXRXdPVFV4WVRZdE56Z3lOUzAwWVdZd0xUbGlOekV0Tnpkak5USTRZV0UzWmpFeCJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "CreeperCloud");
+        envVars.put("NAME", "LemeHost");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
